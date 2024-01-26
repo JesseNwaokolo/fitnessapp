@@ -1,0 +1,3061 @@
+/* Sidebar */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px 0px;
+gap: 10px;
+isolation: isolate;
+
+position: absolute;
+width: 80px;
+height: 876px;
+left: 0px;
+top: 0px;
+
+background: #F7F8FA;
+border-right: 1px solid #EBECF2;
+
+
+/* Container/Menu */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 256px;
+isolation: isolate;
+
+width: 80px;
+height: 488px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Main Menu */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+width: 80px;
+height: 488px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Vector */
+
+width: 40px;
+height: 40px;
+
+background: #34CAA5;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logo */
+
+display: none;
+width: 40px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 44.89%;
+right: 25%;
+top: 3.27%;
+bottom: 91.8%;
+
+background: #26B1FF;
+
+
+/* Vector */
+
+position: absolute;
+left: 26.73%;
+right: 26.84%;
+top: 0.29%;
+bottom: 92.11%;
+
+background: #26B1FF;
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 44.89%;
+top: 0%;
+bottom: 95.07%;
+
+background: #26B1FF;
+
+
+/* Frame 8 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 80px;
+height: 428px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Component 8 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+gap: 10px;
+isolation: isolate;
+
+width: 80px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 12 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+isolation: isolate;
+
+margin: 0 auto;
+width: 40px;
+height: 40px;
+
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Ellipse 3 */
+
+position: absolute;
+display: none;
+width: 40px;
+height: 40px;
+left: calc(50% - 40px/2);
+top: 0px;
+
+background: rgba(255, 255, 255, 0.12);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+
+/* Ellipse 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+display: none;
+width: 40px;
+height: 40px;
+left: calc(50% - 40px/2);
+top: 0px;
+
+border: 1px solid #F2F2F2;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* vuesax/bold/category */
+
+display: none;
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* vuesax/bold/category */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+
+
+/* category */
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 56%;
+top: 8.33%;
+bottom: 56%;
+
+background: #1F9AA2;
+
+
+/* Vector */
+
+position: absolute;
+left: 56%;
+right: 8.33%;
+top: 8.33%;
+bottom: 56%;
+
+background: #1F9AA2;
+
+
+/* Vector */
+
+position: absolute;
+left: 56%;
+right: 8.33%;
+top: 55.96%;
+bottom: 8.38%;
+
+background: #1F9AA2;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 56%;
+top: 55.96%;
+bottom: 8.33%;
+
+background: #1F9AA2;
+
+
+/* Vector */
+
+position: absolute;
+left: 100%;
+right: -100%;
+top: 100%;
+bottom: -100%;
+
+opacity: 0;
+transform: rotate(-180deg);
+
+
+/* Category */
+
+display: none;
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* Iconly/Light-Outline/Category */
+
+position: absolute;
+left: 8.33%;
+right: 10.42%;
+top: 8.33%;
+bottom: 10.42%;
+
+
+
+/* Category */
+
+position: absolute;
+left: 8.33%;
+right: 10.42%;
+top: 8.33%;
+bottom: 10.42%;
+
+
+
+/* Combined-Shape */
+
+position: absolute;
+left: 8.33%;
+right: 10.42%;
+top: 8.33%;
+bottom: 10.42%;
+
+/* Main Colors/Secondary */
+background: #0D062D;
+
+
+/* Component 2 */
+
+display: none;
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+z-index: 4;
+
+
+/* Vector (Stroke) */
+
+position: absolute;
+left: 8.33%;
+right: 54.17%;
+top: 8.33%;
+bottom: 45.83%;
+
+/* subtext/500 */
+background: #333333;
+
+
+/* Vector (Stroke) */
+
+position: absolute;
+left: 54.17%;
+right: 8.33%;
+top: 8.33%;
+bottom: 62.5%;
+
+/* subtext/500 */
+background: #333333;
+
+
+/* Vector (Stroke) */
+
+position: absolute;
+left: 54.17%;
+right: 8.33%;
+top: 45.83%;
+bottom: 8.33%;
+
+/* subtext/500 */
+background: #333333;
+
+
+/* Vector (Stroke) */
+
+position: absolute;
+left: 8.33%;
+right: 54.17%;
+top: 62.5%;
+bottom: 8.33%;
+
+/* subtext/500 */
+background: #333333;
+
+
+/* vuesax/bulk/category */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+z-index: 5;
+
+
+/* vuesax/bulk/category */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* category */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 56%;
+top: 8.33%;
+bottom: 56%;
+
+/* Main Colors/Secondary */
+background: #0D062D;
+
+
+/* Vector */
+
+position: absolute;
+left: 56%;
+right: 8.33%;
+top: 8.33%;
+bottom: 56%;
+
+background: #0D062D;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 56%;
+right: 8.33%;
+top: 55.96%;
+bottom: 8.37%;
+
+/* Main Colors/Secondary */
+background: #0D062D;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 56%;
+top: 55.96%;
+bottom: 8.33%;
+
+background: #0D062D;
+opacity: 0.4;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Union */
+
+box-sizing: border-box;
+
+position: absolute;
+display: none;
+width: 14px;
+height: 40px;
+left: 14px;
+top: 0px;
+
+/* Neutral/Background
+
+FDFDFD
+*/
+background: #FDFDFD;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Vector */
+
+position: absolute;
+width: 3px;
+height: 21px;
+left: 76px;
+top: 9px;
+
+background: #0D062D;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2;
+
+
+/* Line */
+
+margin: 0 auto;
+display: none;
+width: 21px;
+height: 2px;
+
+/* Purple/Purple 50 */
+background: #A56EFF;
+border-radius: 0px 0px 100px 100px;
+transform: rotate(90deg);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+z-index: 3;
+
+
+/* Component 10 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 80px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 12 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 40px;
+height: 40px;
+
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* solar:notes-outline */
+
+display: none;
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 5.21%;
+right: 6.94%;
+top: 5.21%;
+bottom: 5.22%;
+
+/* Main Colors/Secondary */
+background: #0D062D;
+
+
+/* vuesax/linear/star */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* vuesax/linear/star */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* star */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.34%;
+right: 8.32%;
+top: 8.66%;
+bottom: 8.68%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* vuesax/broken/trend-up */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* vuesax/broken/trend-up */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* trend-up */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 31.25%;
+right: 53.46%;
+top: 47.08%;
+bottom: 39.58%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 58.33%;
+right: 31.25%;
+top: 39.58%;
+bottom: 50%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 60.42%;
+right: 31.25%;
+top: 39.58%;
+bottom: 52.08%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Component 9 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 80px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Icon */
+
+width: 40px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Ellipse 3 */
+
+position: absolute;
+visibility: hidden;
+width: 40px;
+height: 40px;
+left: 0px;
+top: 0px;
+
+background: #45B9D2;
+
+
+/* Ellipse 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+visibility: hidden;
+width: 40px;
+height: 40px;
+left: 0px;
+top: 0px;
+
+border: 1px solid #F2F2F2;
+
+
+/* solar:chat-round-dots-bold-duotone */
+
+position: absolute;
+visibility: hidden;
+left: 20%;
+right: 20%;
+top: 20%;
+bottom: 20%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 4.17%;
+bottom: 4.17%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 4.17%;
+bottom: 4.17%;
+
+background: #000000;
+opacity: 0.5;
+
+
+/* Vector */
+
+position: absolute;
+left: 27.08%;
+right: 27.08%;
+top: 45.42%;
+bottom: 45.42%;
+
+background: #000000;
+
+
+/* solar:chat-round-dots-line-duotone */
+
+position: absolute;
+visibility: hidden;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Main Colors/Secondary */
+border: 1.25px solid #0D062D;
+
+
+/* Vector */
+
+position: absolute;
+left: 33.33%;
+right: 33.33%;
+top: 50%;
+bottom: 50%;
+
+/* Main Colors/Secondary */
+border: 1.66667px solid #0D062D;
+
+
+/* vuesax/linear/people */
+
+position: absolute;
+visibility: hidden;
+left: 25%;
+right: 15%;
+top: 25%;
+bottom: 15%;
+
+
+
+/* vuesax/linear/people */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* people */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 63.88%;
+right: 8.47%;
+top: 8.33%;
+bottom: 39.48%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 63.88%;
+right: 14.62%;
+top: 8.33%;
+bottom: 70.17%;
+
+border: 1.5px solid #292D32;
+
+
+/* Vector */
+
+position: absolute;
+left: 70.58%;
+right: 8.47%;
+top: 39.58%;
+bottom: 39.48%;
+
+border: 1.5px solid #292D32;
+
+
+/* Group */
+
+position: absolute;
+left: 8.34%;
+right: 64%;
+top: 8.33%;
+bottom: 39.48%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 14.5%;
+right: 64%;
+top: 8.33%;
+bottom: 70.17%;
+
+border: 1.5px solid #292D32;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.34%;
+right: 70.71%;
+top: 39.58%;
+bottom: 39.48%;
+
+border: 1.5px solid #292D32;
+
+
+/* Group */
+
+position: absolute;
+left: 33.47%;
+right: 33.47%;
+top: 39.46%;
+bottom: 8.32%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 38.88%;
+right: 39.62%;
+top: 39.46%;
+bottom: 39.04%;
+
+border: 1.5px solid #292D32;
+
+
+/* Vector */
+
+position: absolute;
+left: 33.47%;
+right: 33.47%;
+top: 70.77%;
+bottom: 8.32%;
+
+border: 1.5px solid #292D32;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* solar:users-group-two-rounded-linear */
+
+position: absolute;
+visibility: hidden;
+width: 24px;
+height: 24px;
+left: 8px;
+top: 8px;
+
+
+
+/* Group */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 8.33%;
+bottom: 12.5%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 33.33%;
+right: 33.33%;
+top: 8.33%;
+bottom: 58.33%;
+
+border: 1.5px solid #B7B0B0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 16.67%;
+bottom: 62.5%;
+
+border: 1.5px solid #B7B0B0;
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 54.17%;
+bottom: 12.5%;
+
+border: 1.5px solid #B7B0B0;
+
+
+/* Vector */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 58.33%;
+bottom: 20.83%;
+
+border: 1.5px solid #B7B0B0;
+
+
+/* vuesax/broken/profile-2user */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 8px;
+top: 8px;
+
+
+
+/* vuesax/broken/profile-2user */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* profile-2user */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 19%;
+right: 44%;
+top: 8.33%;
+bottom: 54.71%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 67.83%;
+right: 17.04%;
+top: 16.67%;
+bottom: 54.17%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.77%;
+right: 33.39%;
+top: 54.95%;
+bottom: 9.13%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 76.42%;
+right: 10.54%;
+top: 58.33%;
+bottom: 16.67%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Component 13 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 80px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame 12 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 40px;
+height: 40px;
+
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* solar:chart-square-outline */
+
+display: none;
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 5.21%;
+right: 5.21%;
+top: 5.21%;
+bottom: 5.21%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 26.04%;
+right: 26.04%;
+top: 21.88%;
+bottom: 21.88%;
+
+/* Main Colors/Secondary */
+background: #0D062D;
+
+
+/* Vector */
+
+position: absolute;
+left: 5.21%;
+right: 5.21%;
+top: 5.21%;
+bottom: 5.21%;
+
+/* Main Colors/Secondary */
+background: #0D062D;
+
+
+/* vuesax/linear/clock */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* vuesax/linear/clock */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* clock */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 48.46%;
+right: 34.54%;
+top: 31.29%;
+bottom: 36.75%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* vuesax/broken/box */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* vuesax/broken/box */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* box */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 9.96%;
+right: 9.92%;
+top: 8.32%;
+bottom: 8.36%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 13.21%;
+right: 13.46%;
+top: 31%;
+bottom: 9.96%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 13.21%;
+right: 13.46%;
+top: 31%;
+bottom: 47.71%;
+
+border: 1.5px solid #B7B0B0;
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: 50%;
+top: 52.25%;
+bottom: 9.96%;
+
+border: 1.5px solid #B7B0B0;
+
+
+/* Vector */
+
+position: absolute;
+left: 9.96%;
+right: 9.92%;
+top: 8.32%;
+bottom: 8.36%;
+
+border: 1.5px solid #B7B0B0;
+
+
+/* Vector */
+
+position: absolute;
+left: 31.29%;
+right: 29.17%;
+top: 17.08%;
+bottom: 44.83%;
+
+border: 1.5px solid #B7B0B0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Component 11 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 80px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Frame 12 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 40px;
+height: 40px;
+
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Component 2 */
+
+display: none;
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* solar:calendar-linear */
+
+display: none;
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 10.42%;
+bottom: 8.33%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 16.67%;
+bottom: 8.33%;
+
+/* Main Colors/Secondary */
+border: 1.25px solid #0D062D;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.42%;
+right: 10.42%;
+top: 10.42%;
+bottom: 62.5%;
+
+/* Main Colors/Secondary */
+border: 1.25px solid #0D062D;
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 50%;
+bottom: 25%;
+
+/* Main Colors/Secondary */
+background: #0D062D;
+
+
+/* vuesax/linear/trash */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* vuesax/linear/trash */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* trash */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 22.83%;
+bottom: 75.08%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 35.42%;
+right: 35.42%;
+top: 8.33%;
+bottom: 79.29%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 21.46%;
+right: 21.46%;
+top: 38.08%;
+bottom: 8.33%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 43.04%;
+right: 43.08%;
+top: 68.75%;
+bottom: 31.25%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 39.58%;
+right: 39.58%;
+top: 52.08%;
+bottom: 47.92%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* vuesax/broken/discount-shape */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* vuesax/broken/discount-shape */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* discount-shape */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.44%;
+right: 38.92%;
+top: 18.67%;
+bottom: 8.35%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 38.92%;
+right: 8.44%;
+top: 8.35%;
+bottom: 18.67%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 37.5%;
+bottom: 37.5%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 58.33%;
+right: 37.51%;
+top: 58.33%;
+bottom: 37.5%;
+
+border: 2px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 58.34%;
+top: 37.5%;
+bottom: 58.33%;
+
+border: 2px solid #B2ABAB;
+
+
+/* Component 12 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 80px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Frame 12 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 40px;
+height: 40px;
+
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* fluent:megaphone-loud-28-regular */
+
+display: none;
+width: 20px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.72%;
+right: 5.36%;
+top: 5.34%;
+bottom: 7.11%;
+
+background: #000000;
+
+
+/* vuesax/linear/info-circle */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* vuesax/linear/info-circle */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* info-circle */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: 50%;
+top: 33.33%;
+bottom: 45.83%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 49.98%;
+right: 49.98%;
+top: 66.67%;
+bottom: 29.17%;
+
+border: 2px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* vuesax/broken/info-circle */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* vuesax/broken/info-circle */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* info-circle */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: 50%;
+top: 33.33%;
+bottom: 45.83%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 49.98%;
+right: 49.98%;
+top: 66.67%;
+bottom: 29.17%;
+
+border: 2px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Thame */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 10px;
+gap: 10px;
+
+width: 80px;
+height: 92px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+
+/* Thame */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+width: 46px;
+height: 92px;
+
+background: #FFFFFF;
+border-radius: 100px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 427319678 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 30px;
+height: 76px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 427319676 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 6.5625px 7.5px;
+gap: 9.38px;
+
+width: 30px;
+height: 30px;
+
+background: #34CAA5;
+border-radius: 94px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 427319677 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5.27px;
+
+width: 16.88px;
+height: 16.88px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* brightness 1 */
+
+width: 16.88px;
+height: 16.88px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Group */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+/* Neutral/White
+
+FFFFFF
+*/
+background: #FFFFFF;
+
+
+/* Group */
+
+position: absolute;
+left: 45%;
+right: 45%;
+top: 0%;
+bottom: 85%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 45%;
+right: 45%;
+top: 0%;
+bottom: 85%;
+
+/* Neutral/White
+
+FFFFFF
+*/
+background: #FFFFFF;
+
+
+/* Group */
+
+position: absolute;
+left: 73.29%;
+right: 13.18%;
+top: 13.18%;
+bottom: 73.29%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 73.29%;
+right: 13.18%;
+top: 13.18%;
+bottom: 73.29%;
+
+/* Neutral/White
+
+FFFFFF
+*/
+background: #FFFFFF;
+
+
+/* Group */
+
+position: absolute;
+left: 85%;
+right: 0%;
+top: 45%;
+bottom: 45%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 85%;
+right: 0%;
+top: 45%;
+bottom: 45%;
+
+/* Neutral/White
+
+FFFFFF
+*/
+background: #FFFFFF;
+
+
+/* Group */
+
+position: absolute;
+left: 73.29%;
+right: 13.18%;
+top: 73.28%;
+bottom: 13.18%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 73.29%;
+right: 13.18%;
+top: 73.28%;
+bottom: 13.18%;
+
+/* Neutral/White
+
+FFFFFF
+*/
+background: #FFFFFF;
+
+
+/* Group */
+
+position: absolute;
+left: 45%;
+right: 45%;
+top: 85%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 45%;
+right: 45%;
+top: 85%;
+bottom: 0%;
+
+/* Neutral/White
+
+FFFFFF
+*/
+background: #FFFFFF;
+
+
+/* Group */
+
+position: absolute;
+left: 13.18%;
+right: 73.28%;
+top: 73.29%;
+bottom: 13.18%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 13.18%;
+right: 73.28%;
+top: 73.29%;
+bottom: 13.18%;
+
+/* Neutral/White
+
+FFFFFF
+*/
+background: #FFFFFF;
+
+
+/* Group */
+
+position: absolute;
+left: 0%;
+right: 85%;
+top: 45%;
+bottom: 45%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 85%;
+top: 45%;
+bottom: 45%;
+
+/* Neutral/White
+
+FFFFFF
+*/
+background: #FFFFFF;
+
+
+/* Group */
+
+position: absolute;
+left: 13.18%;
+right: 73.28%;
+top: 13.18%;
+bottom: 73.29%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 13.18%;
+right: 73.28%;
+top: 13.18%;
+bottom: 73.29%;
+
+/* Neutral/White
+
+FFFFFF
+*/
+background: #FFFFFF;
+
+
+/* moon 1 */
+
+width: 30px;
+height: 30px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 46.88%;
+right: 46.88%;
+top: 6.25%;
+bottom: 84.38%;
+
+background: #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 46.88%;
+right: 46.88%;
+top: 84.38%;
+bottom: 6.25%;
+
+background: #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 84.38%;
+right: 6.25%;
+top: 46.88%;
+bottom: 46.88%;
+
+background: #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 6.25%;
+right: 84.38%;
+top: 46.88%;
+bottom: 46.88%;
+
+background: #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 73.35%;
+right: 18.15%;
+top: 18.15%;
+bottom: 73.36%;
+
+background: #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.14%;
+right: 73.39%;
+top: 73.39%;
+bottom: 18.15%;
+
+background: #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 73.43%;
+right: 18.15%;
+top: 73.43%;
+bottom: 18.15%;
+
+background: #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 18.14%;
+right: 73.43%;
+top: 18.15%;
+bottom: 73.43%;
+
+background: #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 21.87%;
+right: 21.87%;
+top: 21.88%;
+bottom: 21.87%;
+
+background: #B2ABAB;
+
+
+/* Other Menu */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 80px;
+height: 152px;
+left: 0px;
+top: 682px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+
+/* Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 80px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 12 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 40px;
+height: 40px;
+
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* solar:settings-outline */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 7.59%;
+right: 7.59%;
+top: 5.21%;
+bottom: 5.21%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 34.38%;
+right: 34.38%;
+top: 34.38%;
+bottom: 34.38%;
+
+/* Main Colors/Secondary */
+background: #0D062D;
+
+
+/* Vector */
+
+position: absolute;
+left: 7.59%;
+right: 7.59%;
+top: 5.21%;
+bottom: 5.21%;
+
+/* Main Colors/Secondary */
+background: #0D062D;
+
+
+/* solar:double-alt-arrow-left-linear */
+
+display: none;
+width: 24px;
+height: 24px;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 70.83%;
+right: -12.5%;
+top: 20.83%;
+bottom: 20.83%;
+
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 70.83%;
+right: 4.17%;
+top: 20.83%;
+bottom: 20.83%;
+
+/* Main Colors/Secondary */
+border: 1.5px solid #0D062D;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 54.17%;
+right: 20.83%;
+top: 20.83%;
+bottom: 20.83%;
+
+/* Main Colors/Secondary */
+border: 1.5px solid #0D062D;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+
+/* vuesax/broken/arrow-right */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* vuesax/broken/arrow-right */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* arrow-right */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 35.42%;
+right: 39.58%;
+top: 50%;
+bottom: 50%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 52.08%;
+right: 35.42%;
+top: 37.5%;
+bottom: 37.5%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 80px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 12 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 40px;
+height: 40px;
+
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* solar:settings-outline */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 7.59%;
+right: 7.59%;
+top: 5.21%;
+bottom: 5.21%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 34.38%;
+right: 34.38%;
+top: 34.38%;
+bottom: 34.38%;
+
+/* Main Colors/Secondary */
+background: #0D062D;
+
+
+/* Vector */
+
+position: absolute;
+left: 7.59%;
+right: 7.59%;
+top: 5.21%;
+bottom: 5.21%;
+
+/* Main Colors/Secondary */
+background: #0D062D;
+
+
+/* vuesax/broken/setting-2 */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* vuesax/broken/setting-2 */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* setting-2 */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 37.5%;
+bottom: 37.5%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 28.67%;
+right: 8.29%;
+top: 13.83%;
+bottom: 10.67%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 43.17%;
+top: 10.67%;
+bottom: 26.54%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;
+
+
+/* Icon */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 80px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 12 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 40px;
+height: 40px;
+
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Logout */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Iconly/Light-Outline/Logout */
+
+position: absolute;
+left: 8.34%;
+right: 6.09%;
+top: 8.33%;
+bottom: 8.33%;
+
+
+
+/* Logout */
+
+position: absolute;
+left: 8.34%;
+right: 6.09%;
+top: 8.33%;
+bottom: 8.33%;
+
+
+
+/* Combined-Shape */
+
+position: absolute;
+left: 8.34%;
+right: 6.09%;
+top: 8.33%;
+bottom: 8.33%;
+
+/* Main Colors/Secondary */
+background: #0D062D;
+
+
+/* vuesax/broken/logout */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* vuesax/broken/logout */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* logout */
+
+position: absolute;
+width: 24px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 16.67%;
+right: 72.67%;
+top: 39.33%;
+bottom: 39.33%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 16.96%;
+right: 61.5%;
+top: 50%;
+bottom: 50%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 51.17%;
+right: 40.67%;
+top: 50%;
+bottom: 50%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: 16.67%;
+top: 27%;
+bottom: 16.67%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: 37.62%;
+top: 16.67%;
+bottom: 81.29%;
+
+border: 1.5px solid #B2ABAB;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+opacity: 0;

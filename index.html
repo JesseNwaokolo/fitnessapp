@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
+    <title>FitnessApp</title>
+</head>
+<body>
+    <!--main wrapper-->
+    <div class="main">
+
+        <!--sidebar starts-->
+        <div class="sidebar">
+            <div class="main-menu">
+                <button><img src="images/Logo.svg" alt=""></button>
+                <button id="select"><img src="images/category.png" alt=""></button>
+                <button><img src="images/trend-up.svg" alt=""></button>
+                <button><img src="images/Icon.svg" alt=""></button>
+                <button><img src="images/box.svg" alt=""></button>
+                <button><img src="images/discount.svg" alt=""></button>
+                <button><img src="images/info.svg" alt=""></button>
+                <input type="checkbox" id="slide">
+                <label for="slide" class="slide" onclick="slide()">
+                    <img src="images/sun.57ed79f5.svg" alt="">
+                    <img src="images/moon.68c47f0c.svg" alt="">
+                </label>
+                       
+                    
+                    
+                  
+            
+            </div>
+
+            <div class="other-menu">
+                <button><img src="images/arrow-right.svg" alt=""></button>
+                <button><img src="images/setting.svg" alt=""></button>
+                <button><img src="images/logout.svg" alt=""></button>
+            </div>
+        </div>
+        <!--sidebar ends-->
+
+        <!--Entire dashboard container starts-->
+        <div class="container">
+            <header>
+                <div class="frame">
+                    <h1>Dashboard</h1>
+                    <div> <i class='bx bx-search'></i> <input type="text" placeholder="Search..."></div>
+                </div>
+
+                <div class="profile">
+                    <div class="date"><i class='bx bx-calendar'></i> <p class="dynamic-date"></p></div>
+                    <div class="bell"><i class='bx bx-bell'></i></div>
+                    <div class="email"> <img src="images/justin.png" alt=""> <div class="profile-name"><h5>Justin Bergson</h5> <h6>Justin@gmail.com</h6></div> <i class='bx bxs-chevron-down'></i> </div>
+                </div>
+            </header>
+
+            <div class="container-main">
+
+                <div class="sales-trend">
+                    <div class="sales-trend-header">
+                        <h3>Sales Trend</h3>
+                        <div>
+                            <p>Short by:</p>
+                            <select name="" id="" class="select">
+                                <option value="">Weekly</option>
+                                <option value="">Monthly</option>
+                                <option value="">Daily</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="sales-trend-main">
+                            <div class="sales-trend-main-value">
+                                <span>50,000</span>
+                                <span>40,000</span>
+                                <span>30,000</span>
+                                <span>20,000</span>
+                                <span>10,000</span>
+                                <span>5,000</span>
+                                <span>0</span>
+                            </div>
+
+                            <div class="sales-trend-main-graph-area">
+
+                             <div class="sales-trend-main-graph">
+                                    <div class="rectangle1"></div>
+                                    <div class="rectangle2"></div>
+                                    <div class="rectangle3"></div>
+                                    <div class="rectangle4"></div>
+                                    <div class="rectangle5"></div>
+                                    <div class="rectangle6"> <div class="speech-bubble">$45,000</div> </div>
+                                    <div class="rectangle7"></div>
+                                    <div class="rectangle8"></div>
+                                    <div class="rectangle9"></div>
+                                    <div class="rectangle10"></div>
+                                    <div class="rectangle11"></div>
+                                    <div class="rectangle12"></div>
+
+                                    <div class="graph-lines">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="sales-trend-main-graph-month">
+                                <div class="month">
+                                    <span>Jan</span>
+                                    <span>Feb</span>
+                                    <span>Mar</span>
+                                    <span>Apr</span>
+                                    <span>Mei</span>
+                                    <span>Jun</span>
+                                    <span>Jul</span>
+                                    <span>Aug</span>
+                                    <span>Sep</span>
+                                    <span>Okt</span>
+                                    <span>Nov</span>
+                                    <span>Des</span>
+                                </div>
+                                </div>
+
+                    
+                            </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-component up">
+                        <div class="card-component-header">
+                            <div><img src="images/box-tick.png" alt="icon"></div>
+                            <div class="chart"><img src="images/green-chart.svg" alt="icon"></div>
+                        </div>
+
+                        <div class="card-component-main">
+                            <h3>Total order</h3>
+                            <h2>350</h2>
+                        </div>
+
+                        <div class="card-component-footer">
+                            <p><span><i class='bx bx-trending-up'></i> 23.5%</span> vs. previous month</p>
+                        </div>
+                    </div>
+
+                    <div class="card-component down">
+                        <div class="card-component-header">
+                            <img src="images/3d-rotate.png" alt="icon">
+                            <div class="chart"><img src="images/red-chart.svg" alt="icon"></div>
+                        </div>
+
+                        <div class="card-component-main">
+                            <h3>Total order</h3>
+                            <h2>350</h2>
+                        </div>
+
+                        <div class="card-component-footer">
+                            <p><span><i class='bx bx-trending-down' ></i> 23.5%</span> vs. previous month</p>
+
+                        </div>
+                    </div>
+
+                    <div class="card-component down">
+                        <div class="card-component-header">
+                            <img src="images/shopping-cart.png" alt="icon">
+                            <div class="chart"><img src="images/red-chart.svg" alt="icon"></div>
+                        </div>
+
+                        <div class="card-component-main">
+                            <h3>Total order</h3>
+                            <h2>350</h2>
+                        </div>
+
+                        <div class="card-component-footer">
+                            <p><span><i class='bx bx-trending-down' ></i> 23.5%</span> vs. previous month</p>
+                        </div>
+                    </div>
+
+                    <div class="card-component up">
+                        <div class="card-component-header">
+                            <img src="images/coin.png" alt="icon">
+                            <div class="chart"><img src="images/green-chart.svg" alt="icon"></div>
+                        </div>
+
+                        <div class="card-component-main">
+                            <h3>Total order</h3>
+                            <h2>350</h2>
+                        </div>
+
+                        <div class="card-component-footer">
+                            <p><span><i class='bx bx-trending-up'></i> 23.5%</span> vs. previous month</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order">
+                    <div class="order-header">
+                        <h2>Last Orders</h2>
+                        <a href="#">See All</a>
+                    </div>
+
+                    <div class="order-main">
+                        <div class="order-main-item order-main-item-header">
+                            <span>Name</span>
+                            <span>Date</span>
+                            <span>Amount</span>
+                            <span>Status</span>
+                            <span>Invoice</span>
+                        </div>
+
+                        <div class="order-main-item">
+                            <span class="order-img"><img src="images/marcus.png" alt="">Marcus Bergson</span>
+                            <span>Nov 15, 2023</span>
+                            <span>$80,000</span>
+                            <span style="color: #34caa5;">Paid</span>
+                            <span><i class='bx bx-file'></i> view</span>
+                        </div>
+
+                        <div class="order-main-item">
+                            <span class="order-img"><img src="images/jaydon.png" alt="">Jayden Vacarro</span>
+                            <span>Nov 15, 2023</span>
+                            <span>$150,000</span>
+                            <span style="color: #ed544e;">Refund</span>
+                            <span><i class='bx bx-file'></i> view</span>
+                        </div>
+
+                        <div class="order-main-item">
+                            <span class="order-img"><img src="images/corey.png" alt="">Corey Schleifer</span>
+                            <span>Nov 14, 2023</span>
+                            <span>$87,000</span>
+                            <span style="color: #34caa5;">Paid</span>
+                            <span><i class='bx bx-file'></i> view</span>
+                        </div>
+
+                        <div class="order-main-item">
+                            <span class="order-img"><img src="images/cooper.png" alt="">Cooper Press</span>
+                            <span>Nov 14, 2023</span>
+                            <span>$100,000</span>
+                            <span style="color: #ed544e;">Refund</span>
+                            <span><i class='bx bx-file'></i> view</span>
+                        </div>
+
+                        <div class="order-main-item">
+                            <span class="order-img"><img src="images/philip.png" alt="">Philip Lupin</span>
+                            <span>Nov 13, 2023</span>
+                            <span>$78,000</span>
+                            <span style="color: #34caa5;">Paid</span>
+                            <span><i class='bx bx-file'></i> view</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="platform">
+                    <div class="platform-header">
+                        <h2>Top Platform</h2>
+                        <a href="#">See All</a>
+                    </div>
+
+                    <div class="platform-main">
+                        <div class="platform-progress">
+                            <h4>Book Bazaar</h4>
+                            <div class="progress">
+                                <div class="bar1">
+
+                                </div>
+                            </div>
+                            <h3>$2,500,000 <span>+15%</span></h3>
+                        </div>
+
+                        <div class="platform-progress">
+                            <h4>Artisn Aisle</h4>
+                            <div class="progress">
+                                <div class="bar2">
+
+                                </div>
+                                </div>
+                            <h3>$1,800,000 <span>+10%</span></h3>
+                        </div>
+
+                        <div class="platform-progress">
+                            <h4>Toy Troop</h4>
+                            <div class="progress">
+                                <div class="bar3">
+
+                                </div>
+                            </div>
+                            <h3>$1,200,000 <span>+8%</span></h3>
+                        </div>
+
+                        <div class="platform-progress">
+                            <h4>Xstore</h4>
+                            <div class="progress">
+                                <div class="bar4">
+
+                                </div>
+                            </div>
+                            <h3>$1,200,000 <span>+6%</span></h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            
+        </div>
+        <!--Entire dashboard container ends-->
+
+    </div>
+    <!--main wrapper ends-->
+
+    <!--Script link below-->
+    <script src="index.js"></script>
+</body>
+</html>
